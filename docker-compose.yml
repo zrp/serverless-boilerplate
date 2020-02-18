@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  app:
+    hostname: app
+    env_file: .env.example
+    tty: true
+    stdin_open: true
+    user: '1000'
+    build:
+      context: .
+      target: development
+    volumes:
+      - ./:/app
+    ports:
+      - 3000:3000
+      - 3001:3001
+      - 3002:3002
+      - 9229:9229

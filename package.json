@@ -1,0 +1,68 @@
+{
+  "name": "@zrp-aplicacoes/serverless-project-template",
+  "version": "0.0.1",
+  "description": "A template repository for serverless projects",
+  "private": true,
+  "scripts": {
+    "commit": "git-cz",
+    "cov:serve": "http-server -p 2223 -c-1 coverage/lcov-report/",
+    "deploy:dev": "serverless deploy --verbose -s dev -r us-east-1",
+    "deploy:production": "serverless deploy --verbose -s production -r us-east-1",
+    "docs:gen": "jsdoc -c jsdoc.json ./**/*.js",
+    "docs:serve": "http-server -p 2222 -c-1 docs/",
+    "lint": "eslint src/ lib/ test/",
+    "lint:fix": "eslint --fix src/ lib/ test/",
+    "release": "standard-version",
+    "start": "serverless offline start --host 0.0.0.0 --printOutput",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrp-aplicacoes/serverless-monorepo-template.git"
+  },
+  "author": "ZRP <zrp@zrp.com.br>",
+  "contributors": [
+    "Pedro Gryzinsky <p@zrp.com.br>"
+  ],
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/zrp-aplicacoes/serverless-monorepo-template/issues"
+  },
+  "homepage": "https://github.com/zrp-aplicacoes/serverless-monorepo-template#readme",
+  "dependencies": {
+    "source-map-support": "^0.5.16",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@types/jest": "^25.1.2",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^25.1.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-source-map-support": "^2.1.1",
+    "cz-conventional-changelog": "^3.1.0",
+    "docdash": "^1.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "http-server": "^0.12.1",
+    "jest": "^25.1.0",
+    "jsdoc": "^3.6.3",
+    "prettier": "^1.19.1",
+    "serverless": "^1.63.0",
+    "serverless-offline": "^5.12.1",
+    "serverless-webpack": "^5.3.1",
+    "standard-version": "^7.1.0",
+    "webpack": "^4.41.6",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

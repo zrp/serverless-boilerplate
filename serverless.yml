@@ -1,0 +1,40 @@
+service: serverless-monorepo-template
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  profile: ${opt:profile, 'zrp-prod'}
+  stage: ${opt:stage, 'dev'}
+  region: ${opt:region, 'us-east-1'}
+  memory: 256
+  timeout: 30
+
+  environment:
+    NODE_ENV: ${opt:stage, 'dev'}
+    SERVICE_NAME: unknown
+
+package:
+  individually: true
+
+functions:
+  hello:
+    handler: src/example.hello
+    events:
+      - http:
+          path: /{id?}
+          method: get
+          request:
+            parameters:
+              paths:
+                id: false
+              querystrings:
+                ok: false
+
+plugins:
+  - serverless-webpack
+  - serverless-offline
+
+custom:
+  webpack:
+    webpackConfig: ./webpack.config.js
+    includeModules: true

@@ -1,0 +1,103 @@
+{
+  "version": "0.2.0",
+  "tasks": [],
+  "configurations": [
+    {
+      "name": "Launch Serverless Offline (Locally)",
+      "type": "node",
+      "console": "integratedTerminal",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/serverless/bin/serverless",
+      "args": [
+        "offline",
+        "start",
+        "--printOutput",
+        "--noTimeout",
+        "--host",
+        "0.0.0.0"
+      ],
+      "smartStep": true,
+      "sourceMaps": true,
+      "runtimeArgs": ["--lazy"],
+      "outFiles": ["${workspaceFolder}/.webpack/**/*.js"],
+      "protocol": "inspector",
+      "runtimeExecutable": "node",
+      "env": {
+        "SLS_DEBUG": "*"
+      },
+      "windows": {
+        "program": "${workspaceRoot}\\node_modules\\serverless\\bin\\serverless"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Serverless Offline (Docker)",
+      "runtimeExecutable": "docker-compose",
+      "runtimeArgs": [
+        "run",
+        "--service-ports",
+        "--rm",
+        "app",
+        "node",
+        "--lazy",
+        "--inspect-brk=0.0.0.0:9229",
+        "./node_modules/serverless/bin/serverless",
+        "offline",
+        "start",
+        "--printOutput",
+        "--noTimeout",
+        "--host",
+        "0.0.0.0"
+      ],
+      "protocol": "auto",
+      "port": 9229,
+      "timeout": 60000,
+      "restart": true,
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "/app",
+      "outFiles": ["${workspaceFolder}/.webpack/**/*.js"],
+      "internalConsoleOptions": "openOnSessionStart",
+      "console": "internalConsole",
+      "skipFiles": ["<node_internals>/**/*.js"]
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "name": "Attach to Running Process (Docker)",
+      "protocol": "auto",
+      "port": 9229,
+      "restart": true,
+      "localRoot": "${workspaceFolder}",
+      "remoteRoot": "/app",
+      "outFiles": ["${workspaceFolder}/.webpack/**/*.js"],
+      "skipFiles": ["<node_internals>/**/*.js"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Jest (All)",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": ["--runInBand"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "disableOptimisticBPs": true,
+      "windows": {
+        "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Jest (Current File)",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": ["${fileBasenameNoExtension}", "--config", "jest.config.js"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "disableOptimisticBPs": true,
+      "windows": {
+        "program": "${workspaceFolder}/node_modules/jest/bin/jest"
+      }
+    }
+  ]
+}

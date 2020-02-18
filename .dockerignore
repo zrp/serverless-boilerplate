@@ -1,0 +1,25 @@
+# Ignore git related files
+.git
+.gitignore
+
+# Development
+.vscode
+.github
+.serverless
+.webpack
+node_modules
+coverage
+docs
+*.md
+*.png
+
+# Ignore log files
+*.log
+
+# Environment
+*.env*
+
+# Docker
+*Dockerfile*
+docker-compose.yml
+.dockerignore
