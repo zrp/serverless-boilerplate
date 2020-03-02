@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "pedrogryzinsky",
+      "name": "Pedro Gryzinsky",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/8284669?v=4",
+      "profile": "https://www.linkedin.com/in/pedro-gryzinsky-b2570490/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "serverless-project-template",
+  "projectOwner": "zrp-aplicacoes",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
