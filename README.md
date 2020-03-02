@@ -1,9 +1,9 @@
 # Serverless Project Template
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) ![Build Status](https://github.com/zrp-aplicacoes/serverless-monorepo-template/workflows/Build%20Status/badge.svg)
+[![Made with love](https://img.shields.io/badge/Made%20with%20love%20by-ZRP-orange)](https://www.zrp.com.br/) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) ![Build Status](https://github.com/zrp-aplicacoes/serverless-monorepo-template/workflows/Build%20Status/badge.svg)
 
 ![Logo](http://institutional.zrp.com.br.s3.amazonaws.com/logos/serverless-project-template.png)
 
@@ -96,6 +96,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/pedro-gryzinsky-b2570490/"><img src="https://avatars3.githubusercontent.com/u/8284669?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Gryzinsky</b></sub></a><br /><a href="https://github.com/zrp-aplicacoes/serverless-project-template/commits?author=pedrogryzinsky" title="Code">💻</a> <a href="https://github.com/zrp-aplicacoes/serverless-project-template/commits?author=pedrogryzinsky" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://twitter.com/_nikolas_vs"><img src="https://avatars0.githubusercontent.com/u/7339932?v=4" width="100px;" alt=""/><br /><sub><b>Nikolas Vago Serafini</b></sub></a><br /><a href="https://github.com/zrp-aplicacoes/serverless-project-template/commits?author=Emethium" title="Documentation">📖</a></td>
   </tr>
 </table>
 
