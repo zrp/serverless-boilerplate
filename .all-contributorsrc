@@ -6,6 +6,16 @@
   "commit": false,
   "contributors": [
     {
+      "login": "pedrogryzinsky",
+      "name": "Pedro Gryzinsky",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/8284669?v=4",
+      "profile": "https://www.linkedin.com/in/pedro-gryzinsky-b2570490/",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
       "login": "Emethium",
       "name": "Nikolas Vago Serafini",
       "avatar_url": "https://avatars0.githubusercontent.com/u/7339932?v=4",
