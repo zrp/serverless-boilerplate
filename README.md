@@ -1,6 +1,6 @@
 # Serverless Project Template
 
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) ![Build Status](https://github.com/zrp-aplicacoes/serverless-monorepo-template/workflows/Build%20Status/badge.svg)
+[![Made with love](https://img.shields.io/badge/Made%20with%20love%20by-ZRP-orange)](https://www.zrp.com.br/) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) ![Build Status](https://github.com/zrp-aplicacoes/serverless-monorepo-template/workflows/Build%20Status/badge.svg)
 
 ![Logo](http://institutional.zrp.com.br.s3.amazonaws.com/logos/serverless-project-template.png)
 
