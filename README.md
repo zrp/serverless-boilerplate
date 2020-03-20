@@ -1,13 +1,53 @@
+<h1 align="center">
+  <br>
+  <a href="https://zrp.com.br"><img src="http://institutional.zrp.com.br.s3.amazonaws.com/logos/serverless-project-template.png" alt="Serverless Project Template" width="300"></a>
+</h1>
+
+<p align="center">
+  <a href="https://saythanks.io/to/p@zrp.com.br">
+    <img alt="Say Thanks!" src="https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg">
+  </a>
+
+  <a href="https://zrp.revelo.com.br/">
+    <img alt="Join the team" src="https://img.shields.io/badge/join%20the%20team-jobs-blue">
+  </a>
+
+  <a href="https://github.com/zrpaplicacoes/serverless-project-template/actions?query=workflow%3A%22Build+Status%22">
+    <img alt="Build Status" src="https://github.com/zrp-aplicacoes/serverless-monorepo-template/workflows/Build%20Status/badge.svg">
+  </a>
+
+  <a href="https://snyk.io/test/github/zrpaplicacoes/serverless-project-template?targetFile=package.json">
+    <img alt="Known Vulnerabilities" src="https://snyk.io/test/github/zrpaplicacoes/serverless-project-template/badge.svg?targetFile=package.json">
+  </a>
+
+  <a href="http://commitizen.github.io/cz-cli/">
+    <img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg">
+  </a>
+</h2>
+
+<p align="center">
+  <a href="#about">About</a> ·
+  <a href="#commiting">Commiting</a> ·
+  <a href="#versioning">Versioning</a> ·
+  <a href="#syntax-checking-and-code-formatter">Syntax Checking</a> ·
+  <a href="#folder-structure">Folder Structure</a>
+</p>
+<p align="center">
+  <a href="#documentation">Documentation</a> ·
+  <a href="#debugging">Debugging</a> ·
+  <a href="#testing">Testing</a> ·
+  <a href="#continuous-integration-and-deployment">CI/CD</a>
+  <br/>
+  <br/>
+</p>
+
 # Serverless Project Template
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-
-[![Made with love](https://img.shields.io/badge/Made%20with%20love%20by-ZRP-orange)](https://www.zrp.com.br/) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) ![Build Status](https://github.com/zrp-aplicacoes/serverless-monorepo-template/workflows/Build%20Status/badge.svg)
-
-![Logo](http://institutional.zrp.com.br.s3.amazonaws.com/logos/serverless-project-template.png)
-
-[About](#about) | [Commiting](#commiting) | [Versioning](#versioning) | [Syntax Checking](#syntax-checking-and-code-formatter) | [Folder Structure](#folder-structure) | [Documentation](#documentation) | [Debugging](#debugging) | [Testing](#testing) | [CI/CD](#continuous-integration-and-deployment)
 
 ## About
 
@@ -102,6 +142,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
