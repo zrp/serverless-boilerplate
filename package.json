@@ -57,7 +57,7 @@
     "serverless-offline": "^6.1.2",
     "serverless-webpack": "^5.3.1",
     "standard-version": "^7.1.0",
-    "webpack": "^4.42.0",
+    "webpack": "^4.42.1",
     "webpack-node-externals": "^1.7.2"
   },
   "config": {
