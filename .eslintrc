@@ -1,26 +1,15 @@
 {
-  "extends": ["airbnb/base", "plugin:prettier/recommended"],
+  "extends": [
+    "airbnb/base",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:prettier/recommended"
+  ],
   "env": {
     "browser": false,
-    "commonjs": true,
+    "commonjs": false,
     "es6": true,
     "jest": true,
     "node": true
-  },
-  "rules": {
-    "max-len": [
-      "warn",
-      {
-        "code": 80,
-        "tabWidth": 2,
-        "comments": 80,
-        "ignoreComments": false,
-        "ignoreTrailingComments": true,
-        "ignoreUrls": true,
-        "ignoreStrings": true,
-        "ignoreTemplateLiterals": true,
-        "ignoreRegExpLiterals": true
-      }
-    ]
   }
 }
