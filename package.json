@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/zrp-aplicacoes/serverless-monorepo-template#readme",
   "dependencies": {
-    "source-map-support": "^0.5.16",
+    "source-map-support": "^0.5.17",
     "winston": "^3.2.1"
   },
   "devDependencies": {
